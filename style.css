@@ -1,0 +1,104 @@
+/* General */
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+   background: linear-gradient(#17255A, #F0C987, #17255A); 
+   display: flex;
+}
+
+h1 {
+    color: #E3B23C;
+    margin: 50px;
+}
+
+.card {
+    display: inline-block;
+    border: 3px solid;
+    padding: 30px;
+    margin: 50px;
+    text-align: center;
+    border-radius: 5%;
+    background-color: #D81159;
+    color: azure;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #E3B23C;
+    font-size: 23px;
+}
+
+a {
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+a:hover {
+    background-color: #6E675F;
+}
+
+/* HTML section */
+
+#basic-section {
+    height: 820px;
+}
+
+#form-section {
+    background-color: #17255A;
+    height: 465px;
+}
+
+#attribute-section {
+    background-color: #DB4C40;
+    height: 250px;
+    right: 350px;
+    top: 45%;
+}
+
+#others-section {
+    background-color: #62A87C;
+    height: 610px;
+}
+
+#HTMlevents-section {
+    background-color: #0C1713;
+    height: 900px;
+}
+
+/* CSS section */
+
+#boxmodel-section {
+    height: 2545px; 
+}
+
+#selector-section {
+    height: 1510px;
+    background-color: #17255A;
+}
+
+#style-section {
+    height: 1665px;
+    background-color: #DB4C40;
+}
+
+#elements-section {
+    height: 1835px;
+    background-color: #62A87C;
+}
+
+#css3-box-section {
+    height: 885px;
+    background-color: #0C1713;
+}
+
+#animation-section {
+    height: 1235px;
+    background-color: #6F8AB7;
+}
